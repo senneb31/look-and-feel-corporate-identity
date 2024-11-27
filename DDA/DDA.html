@@ -1,0 +1,505 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Client Website</title>
+        <link rel="stylesheet" href="DDA/DDA.css">
+    
+
+    <!-- Archivo text type -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+    <!-- Martin+Mono text type -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+            <header>
+                <img src="dda-logo-whiteDDA-logo.svg" alt="DDA logo" class="DDA-logo"> 
+                    <nav class="navbar">
+                        
+                        <button aria-hidden="true" class="burgermenu">
+                        <img src="Button.svg" alt="hamburger menu">
+                        </button>
+                           
+                        <button aria-hidden="true" class="close-menu">
+                            <img src="kruisje.svg" alt="close menu">
+                        </button>    
+                        <div class="tabs">          
+                        <ul class="nav-menu">
+                            <li class="nav-item"> 
+                                <a class="nav-list" href="Over-ons">OVER ONS</a> 
+                            </li>
+
+                            <li class="nav-item"> 
+                                <a class="nav-list" href="Events">EVENTS</a> 
+                            </li>
+
+                            <li class="nav-item">  
+                                <a class="nav-list" href="Publicaties">PUBLICATIES</a> 
+                            </li>
+
+                            <li class="nav-item"> 
+                                <a class="nav-list" href="Leden">LEDEN</a> 
+                            </li>
+
+                            <li class="nav-item"> 
+                                <a class="nav-list" href="Vacatures">VACATURES</a> 
+                            </li>
+                </div>
+                            <div class="header-rechts">
+                                    <li class="nav-item">  
+                                        <a class="nav-list" href="Inloggen">INLOGGEN</a> 
+                                        <img src="IconPijl-rechts-zwart.svg" alt="pijltje naar rechts">
+                                    </li>
+
+                                    <li class="nav-item">  
+                                        <a class="nav-list" href="Word-lid">WORD LID</a> 
+                                        <img src="IconPijl-rechts-zwart.svg" alt="pijltje naar rechts">
+                                    </li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>       
+            </header>           
+    <div class="bovenpagina"> 
+        <div class="middle">       
+        <img src="IconPijl-icoon.svg" alt="pijltje naar rechts"> <a class="Refresh" href="Terug-naar-home">TERUG NAAR HOME</a>
+</div>
+        <h1>EVENTS</h1>
+
+        <p class="intro">Spraakmakende sprekers. Inspirerende kennissessies. Events waar je écht
+            bij wilt zijn. En waar je al je vakgenoten weer spreekt. Versterk
+            je bureau met kennis en inspiratie over bureaumanagement, leiderschap
+            en laatste ontwikkelingen.</p>
+    </div>  
+
+<div class="articles">
+    <!-- DUTCH DIGITAL DAY: THE 10TH EDITION -->
+    <article class="Article-1">
+    <div class="Article-1-1">
+            <img src="Imagedutch-digital.jpg" alt="Optreden vrouw in donkere ruimte" style="width: -webkit-fill-available;">
+            <p class="DDD-icon">DDD</p>
+            <p class="Datum-locatie">WO 9 NOV / AMSTERDAM</p>
+            <p class="h2">DUTCH DIGITAL DAY: THE 10TH EDITION</p>
+            <div>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </div>
+    </div>
+    </article>  
+
+    <!-- LEDEN BIJEENKOMST -->
+    <article class="Article-2">
+    <div class="Article-1-2">   
+            <img src="ImageLeden-bijeenkomst.jpg" alt="Vrouw die publiek toespreekt met microfoon" style="width: -webkit-fill-available;">
+            <p class="DDD-icon">DDD</p>
+            <p class="Datum-locatie">DO 10 NOV / UTRECHT</p>
+            <p class="h2">LEDEN BIJEENKOMST</p>
+            <div>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </div>  
+    </div>  
+    </article>
+
+    <!-- CREATIVE JAM DUTCH DESIGN WEEK -->
+    <article class="Article-3">
+    <div class="Article-1-3">
+            <img src="ImageCreative-jam.jpg" alt="Groepsfoto 5 werknemers" style="width: -webkit-fill-available;">
+            <p class="VERGADERING-icon">VERGADERING</p>
+            <p class="Datum-locatie">MA 31 DEC / AMSTERDAM</p>
+            <p class="h2">CREATIVE JAM DUTCH DESIGN WEEK</p>
+            <div>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </div>
+    </div>
+</div>
+    </article>
+
+    <!-- Zoekbalk -->   
+    <label for="event-search">Zoek een event:</label>
+    <input type="search" id="event-search" name="q"/>
+    <button>Search</button>
+
+    <ul class="Thema-locatie">
+
+        <li 
+            class="Thema">THEMA <img src="Iconplusje.svg" alt="plusje">
+        </li>
+
+        <li 
+            class="Locatie"> LOCATIE <img src="Iconplusje.svg" alt="plusje">
+        </li>
+
+    </ul>
+
+    <!-- Events lijst -->
+    <article>
+        <ul class="Event-list">
+
+        <!-- Event 1 -->
+        <div class="Event-1"> 
+            <li>
+                <p class="UX-icon">UX</p>
+            </li>
+
+            <li>
+                <p class="Event-list-title"> Jam Dutch Design Week</p>
+            </li>
+            
+            <li>
+                <p class="Datum-locatie"> 01 NOV / EINDHOVEN</p>
+            </li>
+            
+            <li> 
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </li>
+        </div>
+
+            <!-- Event 2 -->
+        <div class="Event-2"> 
+            <li>
+                <p class="HR-icon">HR</p>
+            </li>
+            
+            <li>
+                <p class="Event-list-title">DDA Ledenbijeenkomst</p>
+            </li>
+            
+            <li>
+                <p class="Datum-locatie">09 NOV / AMSTERDAM</p>
+            </li>
+            
+            <li> 
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </li>
+        </div>
+
+            <!-- Event 3 -->
+        <div class="Event-3"> 
+            <li>
+                <p class="UX-icon">UX</p>
+            </li>
+            
+            <li>
+                <p class="Event-list-title">Creative Jam Dutch Design Week</p>
+            </li>
+            
+            <li>
+                <p class="Datum-locatie">01 NOV / EINDHOVEN</p>
+            </li>
+         
+            <li>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </li>
+        </div>
+
+            <!-- Event 4 -->
+        <div class="Event-4"> 
+            <li>
+                <p class="HR-icon">HR</p>
+            </li>
+            
+            <li>
+                <p class="Event-list-title">DDA Ledenbijeenkomst</p>
+            </li>
+            
+            <li>
+                <p class="Datum-locatie">09 NOV / AMSTERDAM</p>
+            </li>
+            
+            <li>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </li>
+        </div>
+
+            <!-- Event 5 -->
+        <div class="Event-5"> 
+            <li>
+                <p class="UX-icon">UX</p>
+            </li>
+            
+            <li>
+                <p class="Event-list-title">Creative Jam Dutch Design Week</p>
+            </li>
+            
+            <li>
+                <p class="Datum-locatie">01 NOV / EINDHOVEN</p>
+            </li>
+            
+            <li>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </li>
+        </div>
+
+            <!-- Event 6 -->
+        <div class="Event-6"> 
+            <li>
+                <p class="HR-icon">HR</p>
+            </li>
+            
+            <li>
+                <p class="Event-list-title">DDA Ledenbijeenkomst</p>
+            </li>
+            
+            <li>
+                <p class="Datum-locatie">09 NOV / AMSTERDAM</p>
+            </li>
+            
+            <li>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </li>
+        </div>
+
+            <!-- Event 7 -->
+        <div class="Event-7"> 
+            <li>
+                <p class="UX-icon">UX</p>
+            </li>
+            
+            <li>
+                <p class="Event-list-title">Creative Jam Dutch Design Week</p>
+            </li>
+            
+            <li>
+                <p class="Datum-locatie">01 NOV / EINDHOVEN</p>
+            </li>
+            
+            <li>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </li>
+        </div>
+
+            <!-- Event 8 -->
+        <div class="Event-8"> 
+            <li>
+                <p class="HR-icon">HR</p>
+            </li>
+            
+            <li>
+                <p class="Event-list-title">DDA Ledenbijeenkomst</p>
+            </li>
+            
+            <li>
+                <p class="Datum-locatie">09 NOV / AMSTERDAM</p>
+            </li>
+            
+            <li>
+                <button class="details" type="button">DETAILS
+                <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+                </button>
+            </li>
+        </div>
+        </ul>
+            
+                <button class="more-events" type="button">MEER EVENTS LADEN
+                    <img src="IconRefresh.svg" alt="Refresh pijltje">
+                </button>
+           
+    </article>
+
+    <!-- Plaatsgevonden events -->
+    <article>
+        <div class="Plaatsgevonden-events">   
+            <p class="h2-past">PLAATSGEVONDEN EVENTS:</p>
+
+            <ul class="Past-event-list">
+
+                <!-- Plaatsgevonden event 1 -->
+            <div class="Past-event-list-1">
+                <li>
+                    <p class="UX-icon">UX</p>
+                </li>
+                
+                <li>
+                    <p class="Event-list-title">Adviseer de overheid bij een pandemie</p>
+                </li>
+                
+                <li>
+                    <p class="Datum-locatie">03 DEC / UTRECHT</p>
+                    <a class="Heeft-Plaatsgevonden" href="Verlopen-event">HEEFT PLAATSGEVONDEN</a>
+                </li>
+                
+                <li>
+                    <button class="button-past-event" type="button">BUTTON
+                        <img src="IconPijl-rechts.svg" alt="Refresh pijltje">
+                    </button>
+                </li>
+            </div>
+
+                <!-- Verlopen event 2 -->
+            <div class="Past-event-list-2">
+                <li>
+                    <p class="HR-icon">HR</p>
+                </li>
+                
+                <li>
+                    <p class="Event-list-title">Creative Jam Dutch Design Week</p>
+                </li>
+                
+                <li>
+                    <p class="Datum-locatie">01 NOV / AMSTERDAM</p>
+                    <a class="Heeft-Plaatsgevonden" href="Verlopen-event">HEEFT PLAATSGEVONDEN</a>
+                </li>
+                
+                <li>
+                    <button class="button-past-event" type="button">BUTTON
+                        <img src="IconPijl-rechts.svg" alt="Refresh pijltje">
+                    </button>
+                </li>
+            </div>
+
+                <!-- Plaatsgevonden event 3 -->
+            <div class="Past-event-list-3">
+                <li>
+                    <p class="UX-icon">UX</p>
+                </li>
+                
+                <li>
+                    <p class="Event-list-title"> Adviseer de overheid bij een pandemie</p>
+                </li>
+                
+                <li>
+                    <p class="Datum-locatie">03 DEC / UTRECHT</p>
+                    <a class="Heeft-Plaatsgevonden" href="Verlopen-event">HEEFT PLAATSGEVONDEN</a>
+                </li>
+                
+                <li>
+                    <button class="button-past-event" type="button">BUTTON
+                        <img src="IconPijl-rechts.svg" alt="Refresh pijltje">
+                    </button>
+                </li>
+            </div>
+            </ul>
+        </div>
+
+        <button class="more-events" type="button">MEER EVENTS LADEN
+            <img src="IconRefresh.svg" alt="Refresh pijltje">
+        </button>
+    </article>
+
+    <!-- Blijf op de hoogte -->
+    <div class="Blijf-op-de-hoogte">
+        <p class="h3">Blijf op de hoogte van onze events</p>
+
+        <!-- Vul je e-mailadres in -->
+        <div class="aanmelden">
+            <label for="email">Vul je e-mailadres in:</label>
+            <input type="email" id="email" name="email">
+            <button class="aanmelden-button" type="button">AANMELDEN
+                <img src="IconPijl-rechts-zwart.svg" alt="Refresh pijltje">
+            </button>
+        </div>
+    </div>
+
+    <!-- Wij bedanken onze trouwe partners -->
+    <div class="Trouwe-partners">
+        <p class="h3">Wij bedanken onze trouwe partners</p>
+        <button class="word-partner" type="button">WORD PARTNER
+            <img src="IconPijl-rechts-zwart.svg" alt="Refresh pijltje">
+        </button>
+    </div>
+
+    <!-- Plaatjes van de partners -->
+    <div class="Partner-images">
+
+        <img src="rootnet.jpg" alt="Rootnet logo" style="border: solid 1px black;">
+        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo"style="border: solid 1px black">
+        <img src="image-4Amac.jpg" alt="Amac logo"style="border: solid 1px black">
+        <img src="rootnet.jpg" alt="Rootnet logo"style="border: solid 1px black">
+        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo"style="border: solid 1px black">
+        <img src="image-4Amac.jpg" alt="Amac logo"style="border: solid 1px black">
+        <img src="rootnet.jpg" alt="Rootnet logo"style="border: solid 1px black">
+        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo"style="border: solid 1px black">
+        <img src="image-4Amac.jpg" alt="Amac logo"style="border: solid 1px black">
+        <img src="rootnet.jpg" alt="Rootnet logo" style="border: solid 1px black;">
+        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo"style="border: solid 1px black">
+        <img src="image-4Amac.jpg" alt="Amac logo"style="border: solid 1px black">
+        
+    </div>
+
+    <!-- Onderkant pagina -->
+<div class="onderpagina">
+    <div class="logo-inlog">
+        <img src="dda-logo-whiteDDA-logo.svg" alt="DDA logo">
+
+        <button class="inloggen-button" type="button">INLOGGEN
+            <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+        </button>
+    </div>
+
+    <div class="Extra-links">
+        <a href="Over-ons">Over ons</a> 
+        <a href="Events">Events</a> 
+        <a href="Publicaties">Publicaties</a> 
+        <a href="Leden">Leden</a> 
+        <a href="Vacatures">Vacatures</a> 
+        <a href="Algemene-voorwaarden">Algemene voorwaarden</a> 
+        <a href="Privacybeleid">Privacybeleid</a>
+    </div>  
+    
+        <ul class="adres-contact">
+            <div class="adres">
+                <li id="DDA-title">
+                    Dutch Digital Agencies
+                </li>
+
+                <li>
+                    Overhoeksplein 1
+                </li>
+
+                <li>
+                    1031 KS Amsterdam
+                </li>
+            </div>
+            <div class="contact">
+                <li>
+                    (0)85 4010391
+                </li>
+
+                <li>
+                    info@dutchdigitalagencies.com
+                </li>
+            </div>
+        </ul>
+    </div>
+    </div>
+        <footer class="footer">
+        <div class="social-links">
+            <li href="Instagram">Instagram</li>
+            <li href="Facebook">Facebook</li>
+            <li href="LinkedIn">LinkedIn</li>
+        </div>    
+            <p class="Copyright">Copyright © 2023 Dutch Digital Agencies</p>
+        </footer>
+    </body>
+</html>
+
+
+

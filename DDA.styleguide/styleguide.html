@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleSheet DDA - Styleguide</title>
+    <link rel="stylesheet" href="DDA.styleguide/styleguide.css">
+    <link rel="stylesheet" href="DDA.styleguide/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h2>StyleSheet DDA - Styleguide</h2>
+      <p>Dit is de styleguide voor het project DDA. Hierin zijn een aantal huisstijl onderdelen gedefinieerd.</p>
+      <p>Gebruik de volgende gedeelde stylesheet binnen je eigen project:
+        <!-- Pas deze aan zodra deze repository live staat op GitHub Pages -->
+        <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://....github.io/.../projectnaam.css&quot;&gt;</code>
+      </p>
+    </header>
+
+    <nav>
+      <a href="#kleur">Kleuren</a>
+      <a href="#typografie">Typografie</a>
+      <a href="#alinea's">Alinea's</a>
+      <a href="#lijsten">Lijsten</a>
+      <a href="#links">Links</a>
+      <a href="#buttons-black">Buttons</a>
+
+      <!-- En eventueel meer categorieën -->
+    </nav>
+
+
+    <section id="kleur">
+
+      <h2>Kleuren</h2>
+      <p>Bij het onderdeel kleuren staat het kleurgebruik.</p>
+
+      <figure>
+        <code class="color-one">#222226</code>
+        <figcaption>Black</figcaption>
+      </figure>
+      <figure>
+        <code class="color-two">#666666</code>
+        <figcaption>Grey</figcaption>
+      </figure>
+      <figure>
+        <code class="color-three">#FFFFFF</code>
+        <figcaption>White</figcaption>
+      </figure>
+      <figure>
+        <code class="color-four">#364BF7</code>
+        <figcaption>Blue</figcaption>
+      </figure>
+
+    </section>
+
+
+    <section id="typografie">
+
+      <h2>Typografie</h2>
+      <p>Bij het onderdeel typografie worden fonts en groottes gedemonstreerd.</p>
+
+      <h1 class="h1">Kop 1</h1>
+      <h2 class="h2">Kop 2</h2>
+      <h3 class="h3">Kop 3</h3>
+      <h4 class="h4">Kop 4</h4>
+      <h5 class="h5">Kop 5</h5>
+      <h6 class="h6">Kop 6</h6>
+
+      <section id="alinea's">
+        
+        <h2>Alinea's</h2>
+
+      <p class="paragraph">Simpele alinea's</p>
+      <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <p class="sub-text">Sub Alinea's</p>
+      <p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <section id="lijsten">
+
+      <h2>Lijsten</h2>
+
+      <ul class="unordered-lists-links">
+        <li>Ongeordende lijsten met items</li>
+        <li>Met nog meer items</li>
+        <li>En nog een item</li>
+      </ul>
+
+      <ul class="unordered-lists-footerlinks">
+        <li>Ongeordende lijsten met items</li>
+        <li>Met nog meer items</li>
+        <li>En nog een item</li>
+      </ul>
+
+      <section id="links">
+
+      <h2>Links</h2>
+
+
+      <a class="primary-cta" href="#">Link element</a><br><br>
+
+    </section>
+
+    <section id="buttons-black">
+      <h2>Buttons</h2>
+      <button class=buttons-black>Dit is een button</button>
+    </section>
+
+    <section id="buttons-blue"><br>
+      <button class=buttons-blue>Dit is een button</button>
+    </section>
+
+    <h2>Search & Filter</h2>
+
+    <form class="filter">
+      <input type="text" id="search-input" placeholder="Zoek een bureau..." onkeyup="filterItems()">
+      <ul id="items-list">
+        <li>
+          <select class="filter-element">
+            <option value="">Filter</option>
+            <option value="Design">Design</option>
+            <option value="Research">Research</option>
+          </select>
+          <span class="plus-sign">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+              <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </li>
+
+
+        <li>
+          <select class="filter-element">
+            <option value="">Filter</option>
+            <option value="Design">Design</option>
+            <option value="Research">Research</option>
+          </select>
+          <span class="plus-sign">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+              <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </li>
+
+          <li>
+            <select class="filter-element">
+              <option value="">Filter</option>
+              <option value="Design">Design</option>
+              <option value="Research">Research</option>
+            </select>
+            <span class="plus-sign">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+                <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </li>
+
+          <li>
+            <select class="filter-element">
+              <option value="">Filter</option>
+              <option value="Design">Design</option>
+              <option value="Research">Research</option>
+            </select>
+            <span class="plus-sign">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+                <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </li>
+
+          <li>
+            <select class="filter-element">
+              <option value="">Filter</option>
+              <option value="Design">Design</option>
+              <option value="Research">Research</option>
+            </select>
+            <span class="plus-sign">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+                <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </li>
+      </ul>
+  </form>
+
+
+
+    <!-- En eventueel meer categorieën -->
+
+  </body>
+</html>
