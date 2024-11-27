@@ -6,15 +6,13 @@ De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/look-and-f
 
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+DDA Eventspagina: waar en wanneer is welk event?
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Welkom op de pagina voor de events van DDA. Op mijn pagina vind je diverse events in het verleden en de toekomst. Wil jij weten waar en wanneer welk event is? Neem dan een kijkje op mijn pagina.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Ik heb mijn website gebouwd via een huisstijl die meegeleverd is door de opdrachtgever. Wil je weten hoe die huisstijl eruit ziet? Klik dan op de link met styleguid. Hierin kan je zien welke kleuren en welke font en fontsizes ik heb gebruikt om mijn website structureel en duidelijke naar voren te laten komen.
 
 ## Bronnen
 
