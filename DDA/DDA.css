@@ -71,6 +71,12 @@ html{
         border: none;
         display: none;
     }
+
+    .burgermenu-open{
+        background-color: white;
+        padding-top: 154px;
+        translate: 50%; 
+    }
     
     .DDA-logo{
         margin: 16px;
